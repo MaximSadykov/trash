@@ -4,3 +4,6 @@ def get_df_shape (df_path):
     df = pd.read_csv(df_path)
     return df.shape
 
+def get_df_dtypes(df_path):
+    df = pd.read_csv(df_path)
+    return df.dtypes

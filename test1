@@ -11,3 +11,7 @@ def get_df_dtypes(df_path):
 def df_describption(df_path):
     df = pd.read_csv(df_path)
     return df.describe()
+
+def df_head(df_path):
+    df = pd.read_csv(df_path)
+    return df.head()

@@ -4,14 +4,16 @@ def get_df_shape (df_path):
     df = pd.read_csv(df_path)
     return df.shape
 
+
 def get_df_dtypes(df_path):
     df = pd.read_csv(df_path)
     return df.dtypes
 
-def df_describption(df_path):
-    df = pd.read_csv(df_path)
-    return df.describe()
 
 def df_head(df_path):
     df = pd.read_csv(df_path)
     return df.head()
+
+def describing(df_path):
+    df = pd.read_csv(df_path)
+    df.describe()
